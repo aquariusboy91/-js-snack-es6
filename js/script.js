@@ -14,10 +14,8 @@ function arrayNumber () {
     let array1 = [2,3,4,5,6];
     let a = 2;
     let b = 6;
-    let array3 = [];
     let filtro = array1.filter(numero => numero > a && numero < b);
-    array3.push(filtro);
-    return array3
+    return filtro
 };
 
 let print = arrayNumber();
